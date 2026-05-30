@@ -9,7 +9,8 @@
 
     <entity entity-name="Party"
             package="party"
-            cache="true">
+            cache="true"
+            authorize-skip="true">
 
         <field name="partyId" type="id" is-pk="true"/>
         <field name="partyTypeEnumId" type="id"/>
